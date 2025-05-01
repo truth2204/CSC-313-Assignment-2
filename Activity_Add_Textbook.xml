@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/editTitle" android:hint="Title"/>
+        <EditText android:id="@+id/editAuthor" android:hint="Author"/>
+        <EditText android:id="@+id/editCopies" android:hint="Copies" android:inputType="number"/>
+        <EditText android:id="@+id/editPrice" android:hint="Price" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/editBanking" android:hint="Banking Info"/>
+        <Button android:id="@+id/btnSave" android:text="Save Textbook"/>
+    </LinearLayout>
+</ScrollView>
