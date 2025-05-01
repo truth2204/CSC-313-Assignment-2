@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/browseBooksFragment">
+
+    <fragment
+        android:id="@+id/browseBooksFragment"
+        android:name="com.example.csc313assignment2.BrowseBooksFragment"
+        android:label="fragment_browse_books"
+        tools:layout="@layout/fragment_browse_books" />
+    <fragment
+        android:id="@+id/createListingFragment"
+        android:name="com.example.csc313assignment2.CreateListingFragment"
+        android:label="fragment_create_listing"
+        tools:layout="@layout/fragment_create_listing" />
+</navigation>
