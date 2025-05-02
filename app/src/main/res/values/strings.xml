@@ -2,4 +2,5 @@
     <string name="app_name">CSC 313 Assignment 2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_by_title_or_seller_name">Search by title or seller name</string>
 </resources>
